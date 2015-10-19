@@ -1,0 +1,26 @@
+$octoberOrange: #FF9300;
+//navagation bar elements
+.hd-icon {
+  height: 5em;
+  background-color: $octoberOrange;
+}
+.hd-navbar {
+  height: 5em;
+  background-color: $octoberOrange;
+  nav{
+    margin-top: 1em;
+  }
+  a {
+    margin-right: 3em;
+    font-family: bitter;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    float: right;
+  }
+  a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px grey;
+    color: red;
+  }
+}

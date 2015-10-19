@@ -1,0 +1,22 @@
+.hd-icon {
+  height: 5em;
+  background-color: #FF9300; }
+
+.hd-navbar {
+  height: 5em;
+  background-color: #FF9300; }
+  .hd-navbar nav {
+    margin-top: 1em; }
+  .hd-navbar a {
+    margin-right: 3em;
+    font-family: bitter;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    float: right; }
+  .hd-navbar a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px grey;
+    color: red; }
+
+/*# sourceMappingURL=Main.css.map */
