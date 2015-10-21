@@ -19,4 +19,8 @@
     text-shadow: 1px 1px grey;
     color: red; }
 
+#mapDiv {
+  width: 100%;
+  height: 40em; }
+
 /*# sourceMappingURL=Main.css.map */
