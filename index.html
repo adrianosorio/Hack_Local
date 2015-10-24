@@ -13,9 +13,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Adrian">
         <!--ArcGis Link tags and modules-->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+         <script src = "home.js"></script> 
         <link rel="stylesheet" href="http://js.arcgis.com/3.14/esri/css/esri.css">
         <script src="http://js.arcgis.com/3.14/"></script>
+        <script src="http://js.arcgis.com/3.14compact/"></script>
         <script src = "app.js"></script>        
+         
         <!--My own Components-->
         <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
         <link rel = "stylesheet" type = "text/css" href = "Main.css">
@@ -23,7 +27,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-         <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+         
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
@@ -41,7 +45,7 @@
 		   	 </div>
 		   	 <div class = "col-md-11 hd-navbar">
 		   	 	<nav>
-		   	 		<a href = "#">Search</a>
+		   	 		<a href = "#" id = "searchButton">Search</a>
 		   	 		<a href = "#">Contact</a>
 		   	 		<a href = "#">About Me</a>
 		   	 		<a href = "#">Home</a>
@@ -51,8 +55,13 @@
 		   </div>
 		</header>
 	    <!--Main Content of The site will fit in here-->
-	    <div class = "home_body claro" >    
-	      <div id = "mapDiv" class = "mapDivStyle"></div>
+	    <div class = "home_body claro">    
+	      <!--<div class = "mapDivHider">-->
+	        <div class = "search_engine">
+	          <div id = "search" ></div>
+	        </div>
+	        <div id = "mapDiv"></div>
+	      <!--</div>-->
 	    </div>    
 		<!--Anything at the end of the site such as brief info goes here-->
 		<footer>
