@@ -22,6 +22,7 @@ $octoberOrange: #FF9300;
     text-decoration: none;
     text-shadow: 1px 1px grey;
     color: red;
+    cursor: pointer;
   }
 }
 //Body content modifications
@@ -32,8 +33,28 @@ $octoberOrange: #FF9300;
 #search {
     display: block;
     position: absolute;
-    z-index: 3;
-    top: 20px;
-    left: 75px;
+    z-index: 2;
+    top: 0.5em;
+    left: 3em;
   }
-
+.search_engine {
+  height: 4em;
+  width: 25em;
+  background-color: $octoberOrange;
+  float: right;
+  border-bottom-left-radius: 2em;
+  display: block;
+  position: absolute;
+  z-index: 3;
+  left: 60.7em;
+}
+footer{
+  width: 100%;
+  height: 4em;
+  background-color: rgba(1,1,1,0.9);
+  text-align: center;
+  color: white;
+  font-family: bitter;
+  font-size: 1.2em;
+  padding-top: 1em;
+}
