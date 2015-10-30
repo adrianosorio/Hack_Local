@@ -1,0 +1,7 @@
+@mixin Style_Box_Body($color) {
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+   height: 40em;
+   background-color: $color;
+} 

@@ -1,3 +1,6 @@
+body {
+  background-color: yellow; }
+
 .hd-icon {
   height: 5em;
   background-color: #FF9300; }
@@ -18,6 +21,15 @@
     text-decoration: none;
     text-shadow: 1px 1px grey;
     color: red;
+    cursor: pointer; }
+
+#logo {
+  width: 4em;
+  height: 4em;
+  float: left;
+  margin-top: -0.5em;
+  position: relative; }
+  #logo:hover {
     cursor: pointer; }
 
 #mapDiv {
@@ -41,6 +53,22 @@
   position: absolute;
   z-index: 3;
   left: 60.7em; }
+
+/*this will be the service link*/
+#Service {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40em;
+  background-color: #ffffff; }
+
+/*this will be the contact link*/
+#Contact {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40em;
+  background-color: #ffffff; }
 
 footer {
   width: 100%;
